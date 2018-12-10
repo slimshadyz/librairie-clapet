@@ -264,6 +264,9 @@ button {
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
 }
+.nav-main__list {
+  text-align: center;
+}
 
 .nav-main__item {
   display: inline-block;
