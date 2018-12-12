@@ -10,7 +10,7 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -221,9 +221,9 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  width: 1440px;
+  height: 461.7px;
+  background: url("../img/header-bg.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -249,7 +249,7 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 6.4em;
   margin: 0;
 }
 
@@ -267,7 +267,6 @@ button {
 .nav-main__list {
   text-align: center;
 }
-
 .nav-main__item {
   display: inline-block;
 }
@@ -276,6 +275,7 @@ button {
   display: block;
   padding: 10px;
   color: #fff;
+  font-size: 1.8em;
 }
 .nav-main__link:hover {
   text-decoration: none;
