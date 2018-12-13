@@ -197,8 +197,9 @@ button {
 }
 
 .chapo {
-  font-size: 4.8em;
+  font-size: 2.6em;
   text-align-last: center;
+  text-align: center;
   padding: 5%;
   margin-top: 2%;
 
@@ -257,7 +258,7 @@ button {
 
 .header__title {
   font-family: 'Raleway', sans-serif;
-  font-size: 800%;
+  font-size: 700%;
   font-weight: 999; 
   font-style: normal ;
   font-stretch: 200%;
@@ -271,7 +272,7 @@ button {
 .header__subtitle {
   font-family: 'Raleway', sans-serif;
   margin: 0;
-  font-size: 500%; 
+  font-size: 400%; 
   color: #e2f0fe;
   font-weight: 1;
   text-shadow: 1px 1px 5px #000;
@@ -294,7 +295,7 @@ button {
   display: block;
   padding: 10px;
   color: #e2f0fe;
-  font-size: 200%;
+  font-size: 120%;
 }
 .nav-main__link:hover {
   text-decoration: none;
@@ -314,15 +315,17 @@ button {
   border: none;
   background-color: #d9d9d9;
 }
-
+#s1 {
+  margin-top: 145.850px;
+}
 
 /**
 * honey-pot
 */
 
 .honey-pot__image {
-  height: 104.0em;
-  width: 66.0em;
+  height: 40.0em;
+  width: 27.0em;
   padding: 4%;
 }
 .honey-pot-list {
@@ -331,7 +334,7 @@ button {
 
 .honey-pot {
   display: inline-block;
-  margin: 0 65px 75px 65px;
+  margin: 0 40px 45px 40px;
   text-align: center;
 }
 
@@ -359,13 +362,13 @@ button {
 
 .honey-pot__title {
   margin: 0;
-  font-size: 5em;
+  font-size: 3.2em;
   font-weight: bolder;
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 3.6em;
+  font-size: 2em;
   font-weight: 200;
 }
 
@@ -402,7 +405,7 @@ button {
 
 .news__date {
   margin: 0;
-  font-size: 300%;
+  font-size: 150%;
   color: #e8a27d;
 }
 
@@ -415,7 +418,7 @@ button {
 
 .news__text {
   margin: 0;
-  font-size: 300%;
+  font-size: 230%;
   line-height: 1.4;
 }
 
@@ -456,22 +459,19 @@ button {
   margin-top: 3%;
   font-size: 100%;
 }
-#n2, #n3 { 
-    display: inline-block;
-    vertical-align: top;
-}
-#n5 {
-/*font-size: 100%;*/
+#n2 {
+  float: left;
+  width: 30%;
+
 }
 
-#n4{
-  width: 99em;
-  height: 60em;
-}
 #n3{
-  width: 40%;
-  margin-left: 3%;
+  width: 70%;
+  margin-left: 31%;
+  padding-left: 5%;
+ /* float: right;*/
 }
+
 .news-list .news-list__news--main {
   grid-column: span 3;
 }
@@ -532,6 +532,6 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
-  font-size: 630%;
+  font-size: 600%;
   margin-top: 3%;
 }
