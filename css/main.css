@@ -331,7 +331,7 @@ button {
 
 .honey-pot {
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  margin: 0 65px 75px 65px;
   text-align: center;
 }
 
@@ -359,13 +359,13 @@ button {
 
 .honey-pot__title {
   margin: 0;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 5em;
+  font-weight: bolder;
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
+  font-size: 3.6em;
   font-weight: 200;
 }
 
@@ -391,8 +391,8 @@ button {
 .news__thumbnail {
   margin-bottom: 10px;
   filter: grayscale(0);
-  width: 100%;
-  height: 100%;
+  /*width: 100%;
+  height: 100%;*/
 }
 
 .news__image {
@@ -402,20 +402,20 @@ button {
 
 .news__date {
   margin: 0;
-  font-size: 1.8em;
+  font-size: 300%;
   color: #e8a27d;
 }
 
 .news__title {
   margin: 0 0 15px;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 300%;
   line-height: 1.4;
 }
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 300%;
   line-height: 1.4;
 }
 
@@ -451,13 +451,40 @@ button {
   margin-bottom: 35px;
   margin-top: 7%;
 }
+#n1 {
+  width: 100%;
+  margin-top: 3%;
+  font-size: 100%;
+}
+#n2, #n3 { 
+    display: inline-block;
+    vertical-align: top;
+}
+#n5 {
+/*font-size: 100%;*/
+}
 
+#n4{
+  width: 99em;
+  height: 60em;
+}
+#n3{
+  width: 40%;
+  margin-left: 3%;
+}
 .news-list .news-list__news--main {
   grid-column: span 3;
 }
 
 .news-list__news {
   grid-column: span 1;
+  display: grid;
+  grid-gap: 35px;
+  /*grid-template-columns: repeat(3, 1fr);*/
+  grid-template-rows: auto;
+  margin-bottom: 35px;
+  margin-top: 7%;
+
 }
 
 /**
