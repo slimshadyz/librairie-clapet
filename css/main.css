@@ -320,6 +320,11 @@ button {
 * honey-pot
 */
 
+.honey-pot__image {
+  height: 104.0em;
+  width: 66.0em;
+  padding: 4%;
+}
 .honey-pot-list {
   text-align: center;
 }
@@ -386,6 +391,8 @@ button {
 .news__thumbnail {
   margin-bottom: 10px;
   filter: grayscale(0);
+  width: 100%;
+  height: 100%;
 }
 
 .news__image {
